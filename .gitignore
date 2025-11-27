@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+/dist
+.env
+.env.local
+.env.*.local
+
+# PHP / Composer
+/vendor/
+composer.lock
+composer.phar
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs, caches, build artifacts
+*.log
+.cache/
+tmp/
+*.tmp
+
+
+# Misc
+coverage/
+.phpunit.result.cache
