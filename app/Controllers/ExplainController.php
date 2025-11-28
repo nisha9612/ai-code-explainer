@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Services\MistralService;
+use App\Services\GroqService;
 
 class ExplainController
 {
@@ -28,7 +28,7 @@ class ExplainController
         }
 
         try {
-            $service = new MistralService();
+            $service = new GroqService();
             $result = $service->explain($code, $language, $ast);
 
             echo json_encode(['explanation' => $result]);
